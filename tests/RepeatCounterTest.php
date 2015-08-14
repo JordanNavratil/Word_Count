@@ -18,6 +18,21 @@
             //Assert
             $this->assertEquals(1, $result);
         }
+
+        function test_two_letter_word()
+        {
+            //Arrange
+            $test_RepeatCounter = new RepeatCounter;
+            $first_input = "a";
+            $second_input = "a wolf";
+
+            //Act
+            $result = $test_RepeatCounter->countRepeats($first_input, $second_input);
+
+            //Assert
+            $this->assertEquals(1, $result);
+        }
+
     }
 
 ?>
