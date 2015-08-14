@@ -31,7 +31,7 @@ output= please enter one word only
 6)
 User inputs invalid characters in first search field and receives an error message
 input1= !?@
-input2= look at that wolf fighting that other wolf
+input2= look at that wolf fighting 
 output = "characters not valid"
 
 7)

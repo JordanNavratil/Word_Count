@@ -59,8 +59,23 @@
 
             //Assert
             $this->assertEquals(3, $result);
-        }
-
-    }
+     }
+  }
 
 ?>
+
+
+
+        //
+        // function test_multiple_words()
+        // {
+        //     //Arrange
+        //     $test_RepeatCounter = new RepeatCounter;
+        //     $first_input = "wolf fighting";
+        //     $second_input = "look at that wolf fighting";
+        //
+        //     //Act
+        //     $result = $test_RepeatCounter->countRepeats($first_input, $second_input);
+        //
+        //     //Assert
+        //     $this->assertEquals("please enter one word only", $result);

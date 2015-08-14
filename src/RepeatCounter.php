@@ -9,6 +9,8 @@
                 return 1;
             } elseif ($first_input != $second_input) {
                 return $number;
+            } elseif (preg_match('/\s/', $first_input)) {
+                return "please enter one word only";
             }
         }
     }
