@@ -33,6 +33,20 @@
             $this->assertEquals(1, $result);
         }
 
+        function test_multiple_letter_word()
+        {
+            //Arrange
+            $test_RepeatCounter = new RepeatCounter;
+            $first_input = "wolf";
+            $second_input = "look at that wolf";
+
+            //Act
+            $result = $test_RepeatCounter->countRepeats($first_input, $second_input);
+
+            //Assert
+            $this->assertEquals(1, $result);
+        }
+
     }
 
 ?>
