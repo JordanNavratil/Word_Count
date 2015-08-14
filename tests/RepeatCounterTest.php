@@ -47,6 +47,20 @@
             $this->assertEquals(1, $result);
         }
 
+        function test_multiple_times()
+        {
+            //Arrange
+            $test_RepeatCounter = new RepeatCounter;
+            $first_input = "wolf";
+            $second_input = "look at that wolf fighting that other wolf while the other wolf watches";
+
+            //Act
+            $result = $test_RepeatCounter->countRepeats($first_input, $second_input);
+
+            //Assert
+            $this->assertEquals(3, $result);
+        }
+
     }
 
 ?>
